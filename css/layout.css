@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+body{
+    background-color: #FFFBEA;
+    
+}
+/*.front_section{
+  background-image: url("../img/butik_drawing.png");
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+
+}*/
+
+.grid_1-1-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.h1_forside{
+    position: relative;
+    left: 35%;
+    top: 2vw ;
+}
+.col_center{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    flex-direction:column;
+}
+button{
+    width: 15vw;
+    height: auto;
+    
+}
+section{
+    overflow: hidden;
+}
+
+.bak_contack{
+    right: 17vh;
+    top: 3.5vh;
+    position: relative;
+}
+.img_forside{
+    position: relative;
+    width: 85vw;
+    height: 100vh;
+    left: 14vh;
+    top: 4vh;
+    z-index: -1;
+    display: block;
+}
+
+.kontakt_tekst{
+    top: 7vw;
+    position: relative;
+ }
+
+ .tekst_mellemrum{
+    position: relative;
+    top: 1.5vw;
+}
+
+.menu_afstand h2 {
+    position: relative;
+    top: 5vw;
+    grid-column: 2;
+
+}
+
+.menu_afstand :nth-child(2){
+    position: relative;
+    top: 10vw;
+    grid-column: 1/-1;
+    
+}
+
+.menu_afstand :nth-child(3){
+    position: relative;
+    top: 14vw;
+    grid-column: 1/-1;
+}
+
+.menu_afstand :nth-child(4){
+    position: relative;
+    top: 15vw;
+    grid-column: 1/-1;
+}
+
+.menu_afstand .tekst_knap_p{
+    grid-template-columns: 2;
+   
+}
+
+.menu_afstand .tekst_knap_p button{
+    position: relative;
+    left: 42%;
+}
+
+.menu_afstand :nth-child(5){
+    position: absolute;
+    top: 1800px;
+    
+  
+}
+
+.menu_afstand :nth-child(6){
+    left: 1100px;
+    position:absolute;
+}
+

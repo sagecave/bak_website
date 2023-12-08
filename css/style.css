@@ -1,0 +1,81 @@
+@font-face {
+    font-family: ostrichSans;
+    src: url(../fonts/ostrich-sans/OstrichSans-Light.otf);
+  }
+@font-face {
+    font-family: tabatha;
+    src: url(../fonts/tabatha-font/Tabatha-BF651e76f3dd9fa.otf);
+  }
+
+
+
+.h1_forside{
+    color: #210D9E;
+    font-size: 4rem;
+    font-family: "tabatha";
+}
+
+.contact_section{
+    background-color: #210D9E;
+    width: 100%;
+    height: 60vh;
+
+}
+.menu_section{
+    
+    width: 100%;
+    height: 100vh;
+
+}
+.aboutUs_section{
+    background-color: violet;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.blue_bg_tekst,p,h2,h3{
+    color: #FFFBEA;
+}
+
+
+h2{
+    font-family: "ostrichSans";
+    font-size: 4rem;
+    letter-spacing: 1rem;
+}
+h3{
+    font-family: "ostrichSans"; 
+    font-size: 3rem; 
+}
+
+
+
+p{
+    font-size: 1.3rem;
+}
+
+.flasker_tegning{
+    width: 20%;
+    height: auto;
+}
+
+.sandwich_tegning{
+    width: 30%;
+    height: auto;
+}
+.menu_section p, h2{
+    color: black;
+    text-align: center;
+}
+
+.contact_h2{
+    color: #FFFBEA;
+}
+.menu_afstand h2{
+    color: #210D9E  ;
+}
+
+.menu_afstand p{
+    color: black;
+}
