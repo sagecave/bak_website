@@ -27,6 +27,12 @@
     height: 100vh;
 
 }
+.map_section{
+    
+    width: 100%;
+    height: 100vh;
+
+}
 .aboutUs_section{
     background-color: violet;
     width: 100%;
@@ -79,3 +85,21 @@ p{
 .menu_afstand p{
     color: black;
 }
+.grøntsager_tegning{
+    width: 25%;
+}
+footer{
+    background-color: #210D9E;
+    width: 100%;
+    height: bottom;
+    
+}
+
+.map_side ol li{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2em;
+    list-style-type: none;
+    
+}
+
