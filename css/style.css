@@ -39,8 +39,21 @@
     height: 100vh;
 
 }
+.virkAftale_section{
+    
+    width: 100%;
+    height: 100vh;
 
-.blue_bg_tekst,p,h2,h3{
+}
+
+.blue_bg_tekst p{
+    color: #FFFBEA;
+}
+
+.blue_bg_tekst h2{
+    color: #FFFBEA;
+}
+.blue_bg_tekst h3{
     color: #FFFBEA;
 }
 
@@ -59,6 +72,7 @@ h3{
 
 p{
     font-size: 1.3rem;
+    line-height: 2em;
 }
 
 .flasker_tegning{
@@ -103,3 +117,25 @@ footer{
     
 }
 
+.tekst_farveSort{
+    color: black;
+}
+
+.tekst_farveSort h2{
+    color: #210D9E;
+}
+
+.tilbage_knap{
+    width: 6rem;
+    height: 3rem;
+}
+.h1_menu{
+    color: #210D9E;
+    font-family: "tabatha";
+    font-size: 4rem;
+}
+
+.top_spacing_h1{
+    color: #210D9E;
+    font-family: "tabatha";
+}

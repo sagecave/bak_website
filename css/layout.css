@@ -78,20 +78,20 @@ section{
 
 .menu_afstand :nth-child(2){
     position: relative;
-    top: 10vw;
+    
     grid-column: 1/-1;
     
 }
 
 .menu_afstand :nth-child(3){
     position: relative;
-    top: 14vw;
+    top: 2vw;
     grid-column: 1/-1;
 }
 
 .menu_afstand :nth-child(4){
     position: relative;
-    top: 15vw;
+    top: 2vw;
     grid-column: 1/-1;
 }
 
@@ -155,3 +155,16 @@ section{
     line-height: 2em;
 }
 
+.top_spacing{
+    position: relative;
+    top: 5vw;
+}
+.top_spacing2{
+    position: relative;
+    top: 7vw;
+}
+
+.top_spacing_h1{
+    position: relative;
+    top: 3vw;
+}
