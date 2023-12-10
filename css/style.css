@@ -108,6 +108,9 @@ footer{
     height: bottom;
     
 }
+.footer_tekst{
+    color: #FFFBEA;
+}
 
 .map_side ol li{
     font-size: 1.5rem;
