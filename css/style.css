@@ -109,7 +109,7 @@ p{
 footer{
     background-color: #210D9E;
     width: 100%;
-    height: bottom;
+    height: 20vh;
     
 }
 .footer_tekst{
@@ -229,4 +229,15 @@ footer{
 .salat_h3{
     color: #210D9E;
     font-size: 2rem;
+}
+.menu_section2Tapas ol li{
+   list-style: none;
+   font-size: 1.2rem;
+   line-height: 1.3rem;
+   
+}
+
+.aboutUsImg{
+    width: 70%;
+    height: auto;
 }
