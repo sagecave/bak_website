@@ -1,208 +1,186 @@
 @font-face {
-    font-family: ostrichSans;
-    src: url(../fonts/ostrich-sans/OstrichSans-Light.otf);
-  }
+  font-family: ostrichSans;
+  src: url(../fonts/ostrich-sans/OstrichSans-Light.otf);
+}
 @font-face {
-    font-family: tabatha;
-    src: url(../fonts/tabatha-font/Tabatha-BF651e76f3dd9fa.otf);
-  }
-
-
-
-.h1_forside{
-    color: #210D9E;
-    font-size: 4rem;
-    font-family: "tabatha";
+  font-family: tabatha;
+  src: url(../fonts/tabatha-font/Tabatha-BF651e76f3dd9fa.otf);
 }
 
-.contact_section{
-    background-color: #210D9E;
-    width: 100%;
-    height: 60vh;
-
-}
-.menu_section{
-    
-    width: 100%;
-    height: 100vh;
-
-}
-.map_section{
-    
-    width: 100%;
-    height: 100vh;
-
-}
-.aboutUs_section{
-    background-color: violet;
-    width: 100%;
-    height: 100vh;
-
-}
-.virkAftale_section{
-    
-    width: 100%;
-    height: 100vh;
-
-}
-.menu_boks{
-    width: 100%;
-    height: 115vh;
+.h1_forside {
+  color: #210d9e;
+  font-size: 4rem;
+  font-family: "tabatha";
 }
 
-.blue_bg_tekst p{
-    color: #FFFBEA;
+.contact_section {
+  background-color: #210d9e;
+  width: 100%;
+  height: 60vh;
+}
+.menu_section {
+  width: 100%;
+  height: 100vh;
+}
+.map_section {
+  width: 100%;
+  height: 100vh;
+}
+.aboutUs_section {
+  background-color: violet;
+  width: 100%;
+  height: 100vh;
+}
+.virkAftale_section {
+  width: 100%;
+  height: 100vh;
+}
+.menu_boks {
+  width: 100%;
+  height: 115vh;
 }
 
-.blue_bg_tekst h2{
-    color: #FFFBEA;
-}
-.blue_bg_tekst h3{
-    color: #FFFBEA;
+.blue_bg_tekst p {
+  color: #fffbea;
 }
 
-
-h2{
-    font-family: "ostrichSans";
-    font-size: 4rem;
-    letter-spacing: 1rem;
+.blue_bg_tekst h2 {
+  color: #fffbea;
 }
-h3{
-    font-family: "ostrichSans"; 
-    font-size: 3rem; 
+.blue_bg_tekst h3 {
+  color: #fffbea;
 }
 
-
-
-p{
-    font-size: 1.3rem;
-    line-height: 2em;
+h2 {
+  font-family: "ostrichSans";
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+h3 {
+  font-family: "ostrichSans";
+  font-size: 3rem;
 }
 
-.flasker_tegning{
-    width: 20%;
-    height: auto;
+p {
+  font-size: 1.3rem;
+  line-height: 2em;
 }
 
-.sandwich_tegning{
-    width: 30%;
-    height: auto;
-}
-.menu_section p, h2{
-    color: black;
-    text-align: center;
+.flasker_tegning {
+  width: 20%;
+  height: auto;
 }
 
-.contact_h2{
-    color: #FFFBEA;
+.sandwich_tegning {
+  width: 30%;
+  height: auto;
 }
-.menu_afstand h2{
-    color: #210D9E  ;
-}
-
-.menu_afstand p{
-    color: black;
-}
-.grøntsager_tegning{
-    width: 25%;
-}
-footer{
-    background-color: #210D9E;
-    width: 100%;
-    height: bottom;
-    
-}
-.footer_tekst{
-    color: #FFFBEA;
+.menu_section p,
+h2 {
+  color: black;
+  text-align: center;
 }
 
-.map_side ol li{
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 2em;
-    list-style-type: none;
-    
+.contact_h2 {
+  color: #fffbea;
+}
+.menu_afstand h2 {
+  color: #210d9e;
 }
 
-.tekst_farveSort{
-    color: black;
-    
+.menu_afstand p {
+  color: black;
+}
+.grøntsager_tegning {
+  width: 25%;
+}
+footer {
+  background-color: #210d9e;
+  width: 100%;
+  height: bottom;
+}
+.footer_tekst {
+  color: #fffbea;
 }
 
-.tekst_farveSort h2{
-    color: #210D9E;
+.map_side ol li {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2em;
+  list-style-type: none;
 }
 
-.tilbage_knap{
-    width: 6rem;
-    height: 3rem;
-}
-.h1_menu{
-    color: #210D9E;
-    font-family: "tabatha";
-    font-size: 4rem;
+.tekst_farveSort {
+  color: black;
 }
 
-.top_spacing_h1{
-    color: #210D9E;
-    font-family: "tabatha";
+.tekst_farveSort h2 {
+  color: #210d9e;
 }
 
-#menu_main p{
-    line-height: 1em;
-    font-size: 1.2em;
-    
+.tilbage_knap {
+  width: 6rem;
+  height: 3rem;
 }
-#menu_main h3{
-   font-size: 2rem;
-   
-    
-}
-#menu_main h2{
-   font-size: 2rem;
-   color: black;
-   text-align: start;
-   letter-spacing: 0;
-    
+.h1_menu {
+  color: #210d9e;
+  font-family: "tabatha";
+  font-size: 4rem;
 }
 
-.menu_section1,.menu_section2 {
-    border-bottom: solid 2px #210D9E ;
-    
-   
-}
-.menu_section1Tapas,.menu_section2Tapas {
-    border-bottom: solid 2px #210D9E ;
-    
-   
+.top_spacing_h1 {
+  color: #210d9e;
+  font-family: "tabatha";
 }
 
-.menu_section_left{
-    border-right: solid 2px #210D9E ;
+#menu_main p {
+  line-height: 1em;
+  font-size: 1.2em;
+}
+#menu_main h3 {
+  font-size: 2rem;
+}
+#menu_main h2 {
+  font-size: 2rem;
+  color: black;
+  text-align: start;
+  letter-spacing: 0;
 }
 
-.menu_links a{
-    text-decoration: none;
-    text-decoration: underline;
-    font-size: 1.2em;
-    padding-left: 1.4rem;
-    padding-right: 1.2rem;
-    color: #210D9E;
-
+.menu_section1,
+.menu_section2 {
+  border-bottom: solid 2px #210d9e;
 }
-.menu_links{
-    position: relative;
-    right: 1vh;
+.menu_section1Tapas,
+.menu_section2Tapas {
+  border-bottom: solid 2px #210d9e;
 }
 
-.lined_thin{
-    border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
-    color: #210D9E;
-    border-color: #210D9E;
-    
-    background-color: transparent;
+.menu_section_left {
+  border-right: solid 2px #210d9e;
 }
 
+.menu_links a {
+  text-decoration: none;
+  text-decoration: underline;
+  font-size: 1.2em;
+  padding-left: 1.4rem;
+  padding-right: 1.2rem;
+  color: #210d9e;
+}
+.menu_links {
+  position: relative;
+  right: 1vh;
+}
+
+.lined_thin {
+  border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
+  color: #210d9e;
+  border-color: #210d9e;
+
+  background-color: transparent;
+}
+/* 
 .lined_thin_forside{
     border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
     color: #210D9E;
@@ -210,23 +188,21 @@ footer{
     width: 10%;
     height: 30%;
     background-color: transparent;
+} */
+.lined_thin_forside_blueBg {
+  color: #fffbea;
+  border-color: #fffbea;
+  width: 50%;
+  height: 30%;
+  border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
+  background-color: transparent;
 }
-.lined_thin_forside_blueBg{
-    color: #FFFBEA;
-    border-color: #FFFBEA;
-    width: 50%;
-    height: 30%;
-    border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
-    background-color: transparent;
-}
-
 
 .burger-menu {
-    z-index: 1000;
- 
+  z-index: 1000;
 }
 
-.salat_h3{
-    color: #210D9E;
-    font-size: 2rem;
+.salat_h3 {
+  color: #210d9e;
+  font-size: 2rem;
 }
