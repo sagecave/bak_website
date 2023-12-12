@@ -166,3 +166,67 @@ footer{
     
 }
 
+.menu_section1,.menu_section2 {
+    border-bottom: solid 2px #210D9E ;
+    
+   
+}
+.menu_section1Tapas,.menu_section2Tapas {
+    border-bottom: solid 2px #210D9E ;
+    
+   
+}
+
+.menu_section_left{
+    border-right: solid 2px #210D9E ;
+}
+
+.menu_links a{
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-left: 1.4rem;
+    padding-right: 1.2rem;
+    color: #210D9E;
+
+}
+.menu_links{
+    position: relative;
+    right: 1vh;
+}
+
+.lined_thin{
+    border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
+    color: #210D9E;
+    border-color: #210D9E;
+    
+    background-color: transparent;
+}
+
+.lined_thin_forside{
+    border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
+    color: #210D9E;
+    border-color: #210D9E;
+    width: 10%;
+    height: 30%;
+    background-color: transparent;
+}
+.lined_thin_forside_blueBg{
+    color: #FFFBEA;
+    border-color: #FFFBEA;
+    width: 50%;
+    height: 30%;
+    border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
+    background-color: transparent;
+}
+
+
+.burger-menu {
+    z-index: 1000;
+ 
+}
+
+.salat_h3{
+    color: #210D9E;
+    font-size: 2rem;
+}

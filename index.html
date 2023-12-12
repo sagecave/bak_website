@@ -4,16 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Bak's sandwich</title>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/burger.css">
 </head>
 
 <body>
     <header>
-
+        <div class="burger-menu" id="burger-menu">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="aboutUs.html">Om os</a></li>
+                    <li><a href="virksomhedsaftale.html">Virksomhedsaftale</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="col_down">
+    <main>
         <section class="front_section">
 
             <div>
@@ -37,8 +53,9 @@
                     <div class="tekst_mellemrum">
                         <p>Telefon: 30 11 30 41</p>
                         <p>E-mail: kontakt@baksandwich.dk</p>
+                        <button class="lined_thin_forside_blueBg"
+                            onclick="window.location.href='virksomhedsaftale.html'">Virksomhedsaftale</button>
 
-                        <button>Virksomhedsaftale</button>
                     </div>
                 </div>
             </div>
@@ -56,7 +73,7 @@
                     sprød og frisk frokost som du enten kan nyde i vores <br> forretning eller som take-away.</p>
                 <div class="tekst_knap_p">
                     <p>Bestil gerne din frokost på 30113041, så undgår du ventetid......Bon Appètit.</p>
-                    <button>MENU</button>
+                    <button class="lined_thin_forside" onclick="window.location.href='menu.html'">MENU</button>
                 </div>
 
                 <img class="flasker_tegning" src="./img/flasker_drawing.png" alt="To flasker, som ikke indholder noget">
@@ -70,14 +87,14 @@
             <video class="fit_screen" src=""></video>
             <div>
                 <h2>BAK's Sandwich</h2>
-                <button>Mere om os</button>
+                <button class="lined_thin_forside" onclick="window.location.href='aboutUs.html'">mere om os</button>
             </div>
 
         </section>
         <section class="map_section">
             <div class="grid_1-1 map_side">
                 <h2 class="mapFirst_h2">Åbningstider</h2>
-                <ol class="col_down">
+                <ol>
                     <li>Mandag: 08-16</li>
                     <li>Tirsdag: 08-16</li>
                     <li>Onsdag: 08-16</li>
@@ -112,6 +129,10 @@
         </div>
 
     </footer>
+    <script src="js/login.js"></script>
+    <script src="js/burgerMenu.js"></script>
+
 </body>
+
 
 </html>

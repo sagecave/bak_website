@@ -65,7 +65,7 @@ section{
 }
 
 .kontakt_tekst{
-    top: 7vw;
+    top: 3vw;
     position: relative;
  }
 
@@ -151,6 +151,15 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
+.col_down{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.col_row_space{
+    display: flex;
+    justify-content: space-around;
+}
 .footer_tekst{
     position: relative;
     top: 10%;
@@ -173,11 +182,11 @@ section{
 
 .menu_design h2{
     position: relative;
-    left: 10vh;
+    left: 25vh;
 }
 .menu_design div{
     position: relative;
-    left: 10vh;
+    left: 25vh;
     top: 1vh;
 }
 .menu_section1{
@@ -185,6 +194,10 @@ section{
     top: 2vh;
     width: 100%;
     height: 50vh;
+    padding-bottom: 0vh;
+    margin-bottom: 3vh;
+    
+    
 }
 .menu_section1 div{
     position: relative;
@@ -192,9 +205,19 @@ section{
 }
 .menu_section2{
     position: relative;
-    top: 1vh;
+    top: -1vh;
     width: 100%;
     height: 50vh;
+    padding-bottom: 5vh;
+    margin-bottom: 3vh;
+}
+.menu_section2{
+    position: relative;
+    top: -1vh;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 .menu_section2 div{
     position: relative;
@@ -202,21 +225,55 @@ section{
 }
 .menu_section3{
     position: relative;
-    bottom: 1vh;
+    bottom: 4vh;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
+  
 }
 
 .menu_section3 div p{
     position: relative;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    
 }
 #body_menu footer{
     width: 100%;
     height: 20vh;
     position:relative;
-    top: 20vh;
+    top: 30vh;
+    
 }
-#menu_main{
+
+#menu_main .menu_boks div{
     overflow: hidden;
+}
+
+.menu_sandwich1{
+    position: absolute;
+    
+}
+.lined_thin{
+    position: relative;
+    left: 5vh;
+    top: 3vh;
+}
+.tapas_grid{
+    grid-column: 1/-1;
+}
+
+.menu_section2Tapas{
+    position: relative;
+    top: -1vh;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 5vh;
+    margin-bottom: 3vh;
+}
+.menu_section1Tapas{
+    position: relative;
+    top: -1vh;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 5vh;
+    margin-bottom: 3vh;
 }
