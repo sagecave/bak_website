@@ -16,7 +16,7 @@
 .contact_section {
   background-color: #210d9e;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 .menu_section {
   width: 100%;
@@ -173,13 +173,13 @@ footer {
   right: 1vh;
 }
 
-.lined_thin {
+/* .lined_thin {
   border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
   color: #210d9e;
   border-color: #210d9e;
 
   background-color: transparent;
-}
+} */
 /* 
 .lined_thin_forside{
     border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
@@ -189,14 +189,14 @@ footer {
     height: 30%;
     background-color: transparent;
 } */
-.lined_thin_forside_blueBg {
+/* .lined_thin_forside_blueBg {
   color: #fffbea;
   border-color: #fffbea;
   width: 50%;
   height: 30%;
   border-radius: 255px 40px 225px 40px/40px 225px 40px 255px;
   background-color: transparent;
-}
+} */
 
 .burger-menu {
   z-index: 1000;

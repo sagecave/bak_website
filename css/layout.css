@@ -36,6 +36,7 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
+  align-content: center;
 }
 
 /*---------Fjerne boksen omkring knappen, give den størrelse og positionere menu knappen----*/
@@ -49,6 +50,19 @@ button img {
 .menuFoside_knap {
   position: relative;
   top: 5vh;
+}
+
+.virksomhed_btn {
+  width: 25%;
+  position: relative;
+  top: 3vh;
+  left: 15vh;
+}
+.tilbage_btn {
+  width: 3%;
+  position: relative;
+  top: 2vh;
+  left: 2vh;
 }
 
 section {
